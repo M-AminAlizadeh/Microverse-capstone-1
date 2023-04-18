@@ -26,6 +26,18 @@
   color: var(--third-color);
 }
 
+.bg-color1 {
+  background-color: var(--primary-color);
+}
+
+.bg-color2 {
+  background-color: var(--secondary-color);
+}
+
+.bg-color3 {
+  background-color: var(--third-color);
+}
+
 /* Header */
 .header-container {
   background-image: url(/assets/images/headline-bg-pattern.jpg);
@@ -33,6 +45,15 @@
   background-size: cover;
 }
 
-.headline-container h1 {
-  font-size: 40px;
+.headline-title-container h1 {
+  font-size: 45px;
+  background: -webkit-linear-gradient(45deg, #dd0909, #ff7b00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-description-container p {
+  font-size: 14px;
+  background-color: #eeeeee;
 }
