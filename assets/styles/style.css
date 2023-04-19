@@ -57,3 +57,67 @@
   font-size: 14px;
   background-color: #eeeeee;
 }
+
+/* Main program */
+.main-program-container {
+  border: 1px solid green;
+  background-image: url(/assets/images/main-program-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-program-line-container {
+  width: 50px;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+
+.feature-container {
+  background: rgba(241, 241, 241, 0.2);
+}
+
+.feature-description {
+  font-size: 14px;
+}
+
+/* Featured Speakers */
+.speakers-container {
+  margin-bottom: 30px;
+}
+
+.speaker-container {
+  width: 90%;
+}
+
+.speaker-picture-container {
+  position: relative;
+  width: 30%;
+}
+
+.speaker-real-image-container {
+  width: 100%;
+  border: none;
+}
+
+.speaker-picture {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.speaker-info-container {
+  width: 80%;
+}
+
+.speaker-line-container {
+  width: 20px;
+  height: 2px;
+}
+
+.speaker-description-container p {
+  font-size: 12px;
+}
