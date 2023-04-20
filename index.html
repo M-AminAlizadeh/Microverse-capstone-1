@@ -25,8 +25,81 @@
       <!-- Navbar -->
       <nav class="px-4 py-3">
         <a href="#"
-          ><img src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
+          ><img
+            src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
         /></a>
+        <!-- Mobile menu modal -->
+        <div
+          class="modal fade modal-fullscreen-md-down"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Modal header -->
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <!-- Modal header -->
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li class="my-3">
+                    <a
+                      href="/about.html"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >About</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Program</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Join</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Sponser</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >News</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <button class="p-2 border border-3 border-danger bg-color3">
+                      <a
+                        href="#"
+                        class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                        >IJ Campaign</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
       <!-- Headline -->
       <section class="headline-container">
@@ -59,7 +132,7 @@
       </section>
     </header>
     <!-- Main program -->
-    <section class="main-program-container px-3 py-4">
+    <section class="main-program-container px-3 py-4" id="main-program">
       <!-- Title -->
       <h2 class="main-program-title text-white text-center mt-3">
         Main Program
@@ -163,7 +236,8 @@
       </ul>
       <!-- Join us -->
       <button
-        class="join-us-container d-block text-white bg-color2 text-center p-4 w-75 mx-auto border-0 my-5">
+        class="join-us-container d-block text-white bg-color2 text-center p-4 w-75 mx-auto border-0 my-5"
+        id="join-us">
         Join IJ Global Summit 2024
       </button>
     </section>
@@ -232,10 +306,12 @@
           src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/35/ec5242/external-chevron-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
       </div>
     </section>
+
     <!-- Bootstrap js CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>
