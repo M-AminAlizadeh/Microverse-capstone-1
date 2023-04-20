@@ -78,6 +78,7 @@ p {
 
 .feature-container {
   background: rgba(241, 241, 241, 0.15);
+  max-width: 500px;
 }
 
 .feature-description {
