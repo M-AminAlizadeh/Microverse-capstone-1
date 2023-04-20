@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      type="image/png"
+      sizes="64x64"
+      rel="icon"
+      href="https://img.icons8.com/external-microdots-premium-microdot-graphic/64/null/external-judo-sport-fitness-vol3-microdots-premium-microdot-graphic.png" />
     <title>Judo course</title>
     <link rel="stylesheet" href="assets/styles/style.css" />
     <!-- Bootstrap css CDN -->
@@ -14,10 +20,298 @@
       crossorigin="anonymous" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="header-container">
+      <!-- Navbar -->
+      <nav class="px-4 py-3">
+        <a href="#"
+          ><img
+            src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+        /></a>
+        <!-- Mobile menu modal -->
+        <div
+          class="modal fade modal-fullscreen-md-down"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Modal header -->
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <!-- Modal header -->
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li class="my-3">
+                    <a
+                      href="/about.html"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >About</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Program</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Join</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Sponser</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >News</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <button class="p-2 border border-3 border-danger bg-color3">
+                      <a
+                        href="#"
+                        class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                        >IJ Campaign</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Headline -->
+      <section class="headline-container">
+        <!-- Headline heading -->
+        <div class="headline-heading-container px-3">
+          <div class="headline-greeting-container">
+            <p class="fs-4 color2 pt-5">"Hello! Dear Judoka"</p>
+          </div>
+          <div class="headline-title-container">
+            <h1 class="fw-bolder">International Judo Global Summit 2024</h1>
+          </div>
+        </div>
+        <!-- Headline description -->
+        <div class="headline-description-container p-3">
+          <p class="border border-white border-3 p-3 fw-normal">
+            A joyful celebration believing in the value of openness and sharing,
+            creating a positive change with people from over 110 countries is
+            taking place in October,in Japan.
+          </p>
+        </div>
+        <!-- Headline date -->
+        <div class="headline-date-container px-3 fw-bolder fs-1 color1">
+          2024.10.15(THU) ~ 16(FRI)
+        </div>
+        <!-- Headline address -->
+        <div class="headline-address-container px-3 pb-5 color1">
+          @ Japan, 536-0022 Osaka, Joto Ward, Nagata, kodokan International
+          center
+        </div>
+      </section>
+    </header>
+    <!-- Main program -->
+    <section class="main-program-container px-3 py-4" id="main-program">
+      <!-- Title -->
+      <h2 class="main-program-title text-white text-center mt-3">
+        Main Program
+      </h2>
+      <!-- Line -->
+      <div
+        class="main-program-line-container d-flex justify-content-center align-items-center mt-3 mb-5 mx-auto">
+        <hr />
+      </div>
+      <!-- Programs -->
+      <ul class="features-container p-0 list-unstyled">
+        <!-- Program -->
+        <li
+          class="feature-container d-flex justify-content-between align-items-center p-2 mb-2 mx-auto">
+          <div class="d-flex justify-content-start align-items-center w-50">
+            <!-- Program icon -->
+            <img
+              src="https://img.icons8.com/external-becris-lineal-becris/40/FFFFFF/external-lecture-business-management-becris-lineal-becris.png"
+              class="ms-3" />
+            <!-- Program name -->
+            <h3 class="feature-lecture color2 fs-5 ms-3 fw-bold">Lecture</h3>
+          </div>
+          <!-- Program description -->
+          <p class="feature-description text-white w-50">
+            Listen to the speakers from various countries about the messeges of
+            sharing and opening
+          </p>
+        </li>
+        <!-- Program -->
+        <li
+          class="feature-container d-flex justify-content-between align-items-center p-2 mb-2 mx-auto">
+          <div class="d-flex justify-content-start align-items-center w-50">
+            <!-- Program icon -->
+            <img
+              src="https://img.icons8.com/ios/40/FFFFFF/temple.png"
+              class="ms-3" />
+            <!-- Program name -->
+            <h3 class="feature-lecture color2 fs-5 ms-3 fw-bold">
+              IJ <br />Exhibition
+            </h3>
+          </div>
+          <!-- Program description -->
+          <p class="feature-description text-white w-50">
+            Visit kodokan various chambers and dojos with their senseis
+          </p>
+        </li>
+        <!-- Program -->
+        <li
+          class="feature-container d-flex justify-content-between align-items-center p-2 mb-2 mx-auto">
+          <div class="d-flex justify-content-start align-items-center w-50">
+            <!-- Program icon -->
+            <img
+              src="https://img.icons8.com/ios/40/FFFFFF/communication--v1.png"
+              class="ms-3" />
+            <!-- Program name -->
+            <h3 class="feature-lecture color2 fs-5 ms-3 fw-bold">Forum</h3>
+          </div>
+          <!-- Program description -->
+          <p class="feature-description text-white w-50">
+            Have the time to share your thoughts and opinions with experts for
+            each topic.
+          </p>
+        </li>
+        <!-- Program -->
+        <li
+          class="feature-container d-flex justify-content-between align-items-center p-2 mb-2 mx-auto">
+          <div class="d-flex justify-content-start align-items-center w-50">
+            <!-- Program icon -->
+            <img
+              src="https://img.icons8.com/ios/40/FFFFFF/kimono.png"
+              class="ms-3" />
+            <!-- Program name -->
+            <h3 class="feature-lecture color2 fs-5 ms-3 fw-bold">
+              Dojo<br />
+              uchikomi
+            </h3>
+          </div>
+          <!-- Program description -->
+          <p class="feature-description text-white w-50">
+            Try practicing your own techniques on dojo's tatami rather than just
+            watching
+          </p>
+        </li>
+        <!-- Program -->
+        <li
+          class="feature-container d-flex justify-content-between align-items-center p-2 mb-2 mx-auto">
+          <div class="d-flex justify-content-start align-items-center w-50">
+            <!-- Program icon -->
+            <img
+              src="https://img.icons8.com/ios/40/FFFFFF/business-network--v1.png"
+              class="ms-3" />
+            <!-- Program name -->
+            <h3 class="feature-lecture color2 fs-5 ms-3 fw-bold">IJ Ignite</h3>
+          </div>
+          <!-- Program description -->
+          <p class="feature-description text-white w-50">
+            Get opportunities to network with other judoka around the world,
+            also after summit.
+          </p>
+        </li>
+      </ul>
+      <!-- Join us -->
+      <button
+        class="join-us-container d-block text-white bg-color2 text-center p-4 w-75 mx-auto border-0 my-5"
+        id="join-us">
+        Join IJ Global Summit 2024
+      </button>
+    </section>
+    <!-- Featured Speakers -->
+    <section class="featured-speakers-container">
+      <!-- Title -->
+      <h2 class="main-program-title text-black text-center mt-4 fw-bold">
+        Featured Speakers
+      </h2>
+      <!-- Line -->
+      <div
+        class="main-program-line-container d-flex justify-content-center align-items-center mt-3 mb-5 mx-auto">
+        <hr />
+      </div>
+      <!-- Speakers -->
+      <ul class="speakers-container list-unstyled mt-2 mb-5">
+        <!-- Speaker -->
+        <li class="speaker-container d-flex gap-5 m-auto mb-5">
+          <!-- Speaker picture -->
+          <div class="speaker-picture-container">
+            <img
+              src="/assets/images/feature-speakers-stock-image.jpg"
+              width="70px"
+              alt="background image" />
+            <div class="speaker-real-image-container">
+              <img
+                src="https://img.lemde.fr/2022/09/19/0/0/6775/4658/664/0/75/0/c0975b8_5234704-01-06.jpg"
+                class="speaker-picture"
+                alt="" />
+            </div>
+          </div>
+          <!-- Speaker info -->
+          <div class="speaker-info-container">
+            <!-- Speaker name -->
+            <div class="speaker-name-container">
+              <h5 class="fs-3 fw-bold text-capitalize">Lorem, ipsum.</h5>
+            </div>
+            <!-- Speaker title -->
+            <div class="speaker-title-container">
+              <p class="fw-bold fst-italic color2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                animi!
+              </p>
+            </div>
+            <!-- Line -->
+            <div class="speaker-line-container bg-color3 mb-3">
+              <hr />
+            </div>
+            <!-- Speaker description -->
+            <div class="speaker-description-container">
+              <p class="">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Laborum ex ipsam aperiam deserunt numquam ullam quasi, corrupti
+                ipsa odit rerum, accusantium ab voluptatum quibusdam incidunt.
+                Dignissimos cumque unde cupiditate in.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- More button -->
+      <div
+        class="more-btn-container border d-flex justify-content-center align-items-center mb-5 rounded py-2 border-2">
+        <span class="fw-bold">MORE</span>
+        <img
+          src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/35/ec5242/external-chevron-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
+      </div>
+    </section>
+
     <!-- Bootstrap js CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>

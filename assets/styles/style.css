@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --primary-color: #272a31;
+  --secondary-color: #ec5242;
+  --third-color: #d3d3d3;
+}
+
+/* Colors */
+.color1 {
+  color: var(--primary-color);
+}
+
+.color2 {
+  color: var(--secondary-color);
+}
+
+.color3 {
+  color: var(--third-color);
+}
+
+.bg-color1 {
+  background-color: var(--primary-color);
+}
+
+.bg-color2 {
+  background-color: var(--secondary-color);
+}
+
+.bg-color3 {
+  background-color: var(--third-color);
+}
+
+/* Header */
+.header-container {
+  background-image: url(/assets/images/headline-bg-pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline-title-container h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(45deg, #dd0909, #ff7b00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-description-container p {
+  font-size: 14px;
+  background-color: #eeeeee;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+
+/* Main program */
+.main-program-container {
+  background-image: url(/assets/images/main-program-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-program-line-container {
+  width: 50px;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+
+.feature-container {
+  background: rgba(241, 241, 241, 0.15);
+  max-width: 500px;
+}
+
+.feature-description {
+  font-size: 14px;
+}
+
+/* Featured Speakers */
+.speakers-container {
+  margin-bottom: 30px;
+}
+
+.speaker-container {
+  width: 90%;
+}
+
+.speaker-picture-container {
+  position: relative;
+  width: 30%;
+}
+
+.speaker-real-image-container {
+  width: 100%;
+  border: none;
+}
+
+.speaker-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.speaker-info-container {
+  width: 80%;
+}
+
+.speaker-line-container {
+  width: 20px;
+  height: 2px;
+}
+
+.speaker-description-container p {
+  font-size: 12px;
+}
+
+.more-btn-container {
+  width: 90%;
+  margin: auto;
+}
