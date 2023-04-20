@@ -155,14 +155,24 @@ p {
   }
 
   .nav-link {
-    color: var(--secondary-color) !important;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid blue !important;
+    transition: 0.5s;
+  }
+
+  .campaign-container:hover {
+    background-color: var(--third-color) !important;
+    color: var(--primary-color) !important;
+    transition: 0.5s;
   }
 
   /* Headline */
   .headline-container {
-    border: 2px solid red;
     margin-top: 6vh;
-    height: 90vh;
+    height: 95vh;
     background: linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.2)),
       url(/assets/images/headline-bg-image-desktop.jpg);
     background-repeat: no-repeat;
@@ -174,7 +184,6 @@ p {
   }
 
   .headline-content-container {
-    border: 2px solid orange;
     width: 70%;
     margin: auto;
   }
