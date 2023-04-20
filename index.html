@@ -22,8 +22,60 @@
   <body>
     <!-- Header -->
     <header class="header-container">
-      <!-- Navbar -->
-      <nav class="px-4 py-3">
+      <!-- Navbar Desktop -->
+      <nav class="navbar fixed-top navbar-light bg-light desktop">
+        <div
+          class="container d-flex justify-content-between align-items-center">
+          <!-- Brand name -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/compositions/T818A1PA1659PT17X26Y20D187054633W11924H12005/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/judo-kanji-emblem-in-kodokan-sign-baby-longsleeve-shirt.jpg"
+              alt=""
+              width="50px" />
+          </a>
+          <!-- Links -->
+          <ul
+            class="navbar-nav me-auto ms-5 mb-2 d-flex flex-row align-items-center gap-5">
+            <li class="nav-item">
+              <a
+                class="nav-link active color2 fw-bold"
+                aria-current="page"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Join</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Sponser</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >News</a
+              >
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <button
+            class="campaign-container nav-link active fw-bold border border-4 border-danger bg-white p-2"
+            aria-current="page"
+            href="#">
+            IJ Campaign
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar Mobile-->
+      <nav class="px-4 py-3 mobile">
         <a href="#"
           ><img
             src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
@@ -103,31 +155,33 @@
       </nav>
       <!-- Headline -->
       <section class="headline-container">
-        <!-- Headline heading -->
-        <div class="headline-heading-container px-3">
-          <div class="headline-greeting-container">
-            <p class="fs-4 color2 pt-5">"Hello! Dear Judoka"</p>
+        <div class="headline-content-container">
+          <!-- Headline heading -->
+          <div class="headline-heading-container px-3">
+            <div class="headline-greeting-container">
+              <p class="fs-2 color2 pt-5">"Hello! Dear Judoka"</p>
+            </div>
+            <div class="headline-title-container">
+              <h1 class="fw-bolder">International Judo Global Summit 2024</h1>
+            </div>
           </div>
-          <div class="headline-title-container">
-            <h1 class="fw-bolder">International Judo Global Summit 2024</h1>
+          <!-- Headline description -->
+          <div class="headline-description-container p-3">
+            <p class="border border-white border-3 p-3 fw-normal">
+              A joyful celebration believing in the value of openness and
+              sharing, creating a positive change with people from over 110
+              countries is taking place in October,in Japan.
+            </p>
           </div>
-        </div>
-        <!-- Headline description -->
-        <div class="headline-description-container p-3">
-          <p class="border border-white border-3 p-3 fw-normal">
-            A joyful celebration believing in the value of openness and sharing,
-            creating a positive change with people from over 110 countries is
-            taking place in October,in Japan.
-          </p>
-        </div>
-        <!-- Headline date -->
-        <div class="headline-date-container px-3 fw-bolder fs-1 color1">
-          2024.10.15(THU) ~ 16(FRI)
-        </div>
-        <!-- Headline address -->
-        <div class="headline-address-container px-3 pb-5 color1">
-          @ Japan, 536-0022 Osaka, Joto Ward, Nagata, kodokan International
-          center
+          <!-- Headline date -->
+          <div class="headline-date-container px-3 fw-bolder fs-1 color1">
+            2024.10.15(THU) ~ 16(FRI)
+          </div>
+          <!-- Headline address -->
+          <div class="headline-address-container px-3 pb-5 color1">
+            @ Japan, 536-0022 Osaka, Joto Ward, Nagata, kodokan International
+            center
+          </div>
         </div>
       </section>
     </header>
