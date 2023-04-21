@@ -173,11 +173,11 @@ p {
   .headline-container {
     margin-top: 6vh;
     height: 95vh;
-    background: linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.2)),
+    background: linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.1)),
       url(/assets/images/headline-bg-image-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,5 +198,45 @@ p {
 
   .headline-description-container p {
     background: rgba(241, 241, 241, 0.438);
+  }
+
+  /* Main program  */
+  .features-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5px;
+  }
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-container div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-lecture {
+    text-align: center;
+  }
+
+  .feature-description {
+    text-align: center;
+  }
+
+  #join-us {
+    display: none !important;
+  }
+
+  .main-program-link-container {
+    text-align: center;
+  }
+
+  .main-program-link-container a:hover {
+    color: var(--secondary-color);
   }
 }
