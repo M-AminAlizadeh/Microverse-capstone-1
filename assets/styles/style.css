@@ -144,6 +144,8 @@ p {
   display: none;
 }
 
+/* About page style */
+
 /* Desktop version */
 @media (min-width: 769px) {
   body {
