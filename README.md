@@ -68,7 +68,7 @@ To get a local copy up and running, follow these steps.
 
 Install [Node Js](https://nodejs.org/en) and [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) and [Git](https://git-scm.com/downloads) on your local computer
 
-> Please first check this video most of your questions answeres are here : [video link](https://www.loom.com/share/7dbb8da743db4237bb40f814277e47e6)
+> Please first check this video most of your questions answeres are here : [video link](https://www.loom.com/share/a7481d250f3541449cbc2468688942f4)
 
 ### Install
 
