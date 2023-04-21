@@ -325,8 +325,9 @@ p {
   }
 
   /* footer */
-  .home-page-footer-container {
-    /* border:1px solid green; */
+  .home-page-footer-container,
+  .about-page-footer-container {
+    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
