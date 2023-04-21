@@ -265,4 +265,21 @@ p {
   .more-btn-container {
     display: none !important;
   }
+
+  /* Partner  */
+  .partner-container {
+    border: 1px solid green;
+    background-color: var(--primary-color);
+    height: 300px;
+    margin-top: 200px;
+  }
+
+  .partner-names-container {
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /*  */
 }
