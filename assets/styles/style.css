@@ -216,6 +216,11 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
+  }
+
+  .feature-container:hover {
+    border: 1px solid #fff;
   }
 
   .feature-container div {
