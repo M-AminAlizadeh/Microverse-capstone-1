@@ -139,6 +139,11 @@ p {
   display: none !important;
 }
 
+/* footer */
+.home-page-footer-container {
+  display: none;
+}
+
 /* Desktop version */
 @media (min-width: 769px) {
   body {
