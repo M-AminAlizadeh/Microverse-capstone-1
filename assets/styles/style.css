@@ -128,6 +128,9 @@ p {
 }
 
 .more-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   margin: auto;
 }
@@ -239,9 +242,9 @@ p {
   .main-program-link-container a:hover {
     color: var(--secondary-color);
   }
+
   /* Featured speakers */
   .speakers-container {
-    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -256,5 +259,10 @@ p {
     background-size: contain;
     width: 170px;
     height: 170px;
+  }
+
+  /* More btn */
+  .more-btn-container {
+    display: none !important;
   }
 }
