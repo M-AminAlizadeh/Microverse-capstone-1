@@ -20,6 +20,171 @@
       crossorigin="anonymous" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="header-container">
+      <!-- Navbar Desktop -->
+      <nav class="navbar fixed-top navbar-light bg-light desktop">
+        <div
+          class="navbar-tools-container d-flex justify-content-end align-items-center">
+          <ul
+            class="list-unstyled d-flex justify-content-around align-items-center pt-2">
+            <li>
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/material-sharp/25/FFFFFF/facebook-f.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/ios-filled/25/FFFFFF/twitter.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">English</a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">My Page</a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="container d-flex justify-content-between align-items-center">
+          <!-- Brand name -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/compositions/T818A1PA1659PT17X26Y20D187054633W11924H12005/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/judo-kanji-emblem-in-kodokan-sign-baby-longsleeve-shirt.jpg"
+              alt=""
+              width="50px" />
+          </a>
+          <!-- Links -->
+          <ul
+            class="navbar-nav link-hover me-auto ms-5 mb-2 d-flex flex-row align-items-center gap-5">
+            <li class="nav-item">
+              <a
+                class="nav-link active color2 fw-bold"
+                aria-current="page"
+                href="about.html"
+                target="_blank"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold"
+                aria-current="page"
+                href="#main-program"
+                >Program</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Join</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Sponser</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >News</a
+              >
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <button
+            class="campaign-container color2 fw-bold border border-4 border-danger bg-white p-2"
+            aria-current="page"
+            href="#">
+            IJ Campaign
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar Mobile-->
+      <nav class="px-4 py-3 mobile">
+        <a href="#"
+          ><img
+            src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+        /></a>
+        <!-- Mobile menu modal -->
+        <div
+          class="modal fade modal-fullscreen-md-down"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Modal header -->
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <!-- Modal header -->
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li class="my-3">
+                    <a
+                      href="/about.html"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >About</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Program</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#join-us"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Join</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >Sponser</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <a
+                      href="#"
+                      class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                      >News</a
+                    >
+                  </li>
+                  <li class="my-3">
+                    <button class="p-2 border border-3 border-danger bg-color3">
+                      <a
+                        href="#"
+                        class="text-decoration-none fs-1 fw-bold text-black color2 text-center"
+                        >IJ Campaign</a
+                      >
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- Bootstrap js CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
