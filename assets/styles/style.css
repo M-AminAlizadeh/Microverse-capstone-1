@@ -268,18 +268,23 @@ p {
 
   /* Partner  */
   .partner-container {
-    border: 1px solid green;
+    border: 1px solid transparent;
     background-color: var(--primary-color);
     height: 300px;
     margin-top: 200px;
   }
 
   .partner-names-container {
-    /* border: 1px solid orange; */
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
-  /*  */
+  /* footer */
+  .home-page-footer-container {
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
