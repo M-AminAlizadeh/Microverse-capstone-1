@@ -145,6 +145,26 @@ p {
 }
 
 /* About page style */
+.past-summit-cards-container div {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:nth-child(1) {
+  background-image: linear-gradient(#fd04046c, #fa070760),
+    url(https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/f9k2runnylj4sagehfxm);
+  background-position: top;
+  background-size: cover;
+}
+.card:nth-child(2) {
+  background-image: linear-gradient(#fd04046c, #fa070760),
+    url(https://media.sudouest.fr/4424142/1000x500/judo.jpg?v=1627736829);
+  background-position: top;
+  background-size: cover;
+}
 
 /* Desktop version */
 @media (min-width: 769px) {
