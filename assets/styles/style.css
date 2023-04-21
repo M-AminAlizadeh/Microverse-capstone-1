@@ -145,6 +145,14 @@ p {
 }
 
 /* About page style */
+.past-summit-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .past-summit-cards-container div {
   width: 90%;
   height: 200px;
@@ -164,6 +172,11 @@ p {
     url(https://media.sudouest.fr/4424142/1000x500/judo.jpg?v=1627736829);
   background-position: top;
   background-size: cover;
+}
+
+.copyright-container {
+  color: var(--primary-color);
+  background-color: #fff;
 }
 
 /* Desktop version */
@@ -309,7 +322,10 @@ p {
   .more-btn-container {
     display: none !important;
   }
-
+  /* Past summit */
+  .past-summit-cards-container {
+    flex-direction: row;
+  }
   /* Partner  */
   .partner-container {
     border: 1px solid transparent;
@@ -332,7 +348,12 @@ p {
     align-items: center;
   }
 
-  .copyright-container{
-    color:#fff;
+  .copyright-container {
+    color: #fff;
+    background-color: var(--primary-color);
+  }
+
+  .about-page-footer-container{
+    background-color: var(--primary-color);
   }
 }
