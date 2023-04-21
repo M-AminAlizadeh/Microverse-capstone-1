@@ -57,11 +57,6 @@
   background-color: #eee;
 }
 
-/* p {
-  margin-top: 0;
-  margin-bottom: 0 !important;
-} */
-
 /* Main program */
 .main-program-container {
   background-image: url(/assets/images/main-program-bg-mobile.jpg);
@@ -161,16 +156,14 @@
 }
 
 .card:nth-child(1) {
-  background-image:
-    linear-gradient(#fd04046c, #fa070760),
+  background-image: linear-gradient(#fd04046c, #fa070760),
     url(https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/f9k2runnylj4sagehfxm);
   background-position: top;
   background-size: cover;
 }
 
 .card:nth-child(2) {
-  background-image:
-    linear-gradient(#fd04046c, #fa070760),
+  background-image: linear-gradient(#fd04046c, #fa070760),
     url(https://media.sudouest.fr/4424142/1000x500/judo.jpg?v=1627736829);
   background-position: top;
   background-size: cover;
@@ -230,8 +223,7 @@
   .headline-container {
     margin-top: 6vh;
     height: 95vh;
-    background:
-      linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.1)),
+    background: linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.1)),
       url(/assets/images/headline-bg-image-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -354,8 +346,8 @@
   }
 
   .copyright-container {
-    color: #fff;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
   }
 
   .about-page-footer-container {
