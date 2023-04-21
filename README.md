@@ -68,6 +68,8 @@ To get a local copy up and running, follow these steps.
 
 Install [Node Js](https://nodejs.org/en) and [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) and [Git](https://git-scm.com/downloads) on your local computer
 
+> Please first check this video most of your questions answeres are here : [video link](https://www.loom.com/share/7dbb8da743db4237bb40f814277e47e6)
+
 ### Install
 
 pen your commandline (if your are on windows ) or Terminal (if you are on Mac or Linux) and paste this command:
@@ -137,7 +139,6 @@ Feel free to check the [issues page](https://github.com/M-AminAlizadeh/Microvers
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project don't forget to leave a `start`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,7 +146,6 @@ If you like this project don't forget to leave a `start`.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
 
 I would like to thank Microverse and the designer Cindy Shin in [Behance](https://www.behance.net/adagio07).
 
