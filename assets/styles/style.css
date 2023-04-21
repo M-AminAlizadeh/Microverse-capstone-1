@@ -49,19 +49,18 @@
   font-size: 50px;
   background: -webkit-linear-gradient(45deg, #dd0909, #ff7b00);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .headline-description-container p {
   font-size: 14px;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
-p {
+/* p {
   margin-top: 0;
-  margin-bottom: 0rem !important;
-}
+  margin-bottom: 0 !important;
+} */
 
 /* Main program */
 .main-program-container {
@@ -162,13 +161,16 @@ p {
 }
 
 .card:nth-child(1) {
-  background-image: linear-gradient(#fd04046c, #fa070760),
+  background-image:
+    linear-gradient(#fd04046c, #fa070760),
     url(https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/f9k2runnylj4sagehfxm);
   background-position: top;
   background-size: cover;
 }
+
 .card:nth-child(2) {
-  background-image: linear-gradient(#fd04046c, #fa070760),
+  background-image:
+    linear-gradient(#fd04046c, #fa070760),
     url(https://media.sudouest.fr/4424142/1000x500/judo.jpg?v=1627736829);
   background-position: top;
   background-size: cover;
@@ -202,7 +204,7 @@ p {
   }
 
   .navbar {
-    padding-top: 0px !important;
+    padding-top: 0 !important;
   }
 
   .navbar-brand {
@@ -228,7 +230,8 @@ p {
   .headline-container {
     margin-top: 6vh;
     height: 95vh;
-    background: linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.1)),
+    background:
+      linear-gradient(rgba(83, 83, 83, 0.3), rgba(0, 0, 0, 0.1)),
       url(/assets/images/headline-bg-image-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,10 +325,12 @@ p {
   .more-btn-container {
     display: none !important;
   }
+
   /* Past summit */
   .past-summit-cards-container {
     flex-direction: row;
   }
+
   /* Partner  */
   .partner-container {
     border: 1px solid transparent;
@@ -353,7 +358,7 @@ p {
     background-color: var(--primary-color);
   }
 
-  .about-page-footer-container{
+  .about-page-footer-container {
     background-color: var(--primary-color);
   }
 }
