@@ -19,7 +19,7 @@
 }
 
 .color2 {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
 }
 
 .color3 {
@@ -49,18 +49,12 @@
   font-size: 50px;
   background: -webkit-linear-gradient(45deg, #dd0909, #ff7b00);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .headline-description-container p {
   font-size: 14px;
-  background-color: #eeeeee;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0rem !important;
+  background-color: #eee;
 }
 
 /* Main program */
@@ -128,6 +122,241 @@ p {
 }
 
 .more-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   margin: auto;
+}
+
+.desktop {
+  display: none !important;
+}
+
+/* footer */
+.home-page-footer-container {
+  display: none;
+}
+
+/* About page style */
+.past-summit-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.past-summit-cards-container div {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:nth-child(1) {
+  background-image:
+    linear-gradient(#fd04046c, #fa070760),
+    url(https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/f9k2runnylj4sagehfxm);
+  background-position: top;
+  background-size: cover;
+}
+
+.card:nth-child(2) {
+  background-image:
+    linear-gradient(#fd04046c, #fa070760),
+    url(https://media.sudouest.fr/4424142/1000x500/judo.jpg?v=1627736829);
+  background-position: top;
+  background-size: cover;
+}
+
+.copyright-container {
+  color: var(--primary-color);
+  background-color: #fff;
+}
+
+/* Desktop version */
+@media (min-width: 769px) {
+  body {
+    font-size: 30px;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .desktop {
+    display: block !important;
+  }
+
+  .navbar-tools-container {
+    background-color: var(--primary-color);
+  }
+
+  .navbar-tools-container ul {
+    width: 20%;
+  }
+
+  .navbar {
+    padding-top: 0 !important;
+  }
+
+  .navbar-brand {
+    border-radius: 20px;
+  }
+
+  .nav-link {
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid blue !important;
+    transition: 0.5s;
+  }
+
+  .campaign-container:hover {
+    background-color: var(--third-color) !important;
+    color: var(--primary-color) !important;
+    transition: 0.5s;
+  }
+
+  /* Headline */
+  .headline-container {
+    margin-top: 6vh;
+    height: 95vh;
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url(/assets/images/headline-bg-image-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headline-content-container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .headline-title-container h1 {
+    width: 50%;
+  }
+
+  .headline-description-container {
+    width: 50%;
+  }
+
+  .headline-description-container p {
+    background: rgba(241, 241, 241, 0.438);
+  }
+
+  /* Main program  */
+  .features-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5px;
+  }
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+  }
+
+  .feature-container:hover {
+    border: 1px solid #fff;
+  }
+
+  .feature-container div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-lecture {
+    text-align: center;
+  }
+
+  .feature-description {
+    text-align: center;
+  }
+
+  #join-us {
+    display: none !important;
+  }
+
+  .main-program-link-container {
+    text-align: center;
+  }
+
+  .main-program-link-container a:hover {
+    color: var(--secondary-color);
+  }
+
+  /* Featured speakers */
+  .speakers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .speaker-container {
+    width: 35%;
+  }
+
+  .speaker-picture {
+    background-position: center;
+    background-size: contain;
+    width: 170px;
+    height: 170px;
+  }
+
+  /* More btn */
+  .more-btn-container {
+    display: none !important;
+  }
+
+  /* Past summit */
+  .past-summit-cards-container {
+    flex-direction: row;
+  }
+
+  /* Partner  */
+  .partner-container {
+    border: 1px solid transparent;
+    background-color: var(--primary-color);
+    height: 350px;
+    margin-top: 200px;
+  }
+
+  .partner-names-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* footer */
+  .home-page-footer-container,
+  .about-page-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-copyright-container {
+    color: #fff;
+    background-color: var(--primary-color);
+  }
+
+  .about-page-footer-container {
+    background-color: var(--primary-color);
+  }
 }

@@ -10,7 +10,7 @@
       sizes="64x64"
       rel="icon"
       href="https://img.icons8.com/external-microdots-premium-microdot-graphic/64/null/external-judo-sport-fitness-vol3-microdots-premium-microdot-graphic.png" />
-    <title>Judo course</title>
+    <title>IJ Home page</title>
     <link rel="stylesheet" href="assets/styles/style.css" />
     <!-- Bootstrap css CDN -->
     <link
@@ -22,8 +22,93 @@
   <body>
     <!-- Header -->
     <header class="header-container">
-      <!-- Navbar -->
-      <nav class="px-4 py-3">
+      <!-- Navbar Desktop -->
+      <nav class="navbar fixed-top navbar-light bg-light desktop">
+        <div
+          class="navbar-tools-container d-flex justify-content-end align-items-center">
+          <ul
+            class="list-unstyled d-flex justify-content-around align-items-center pt-2">
+            <li>
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/material-sharp/25/FFFFFF/facebook-f.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/ios-filled/25/FFFFFF/twitter.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">English</a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">My Page</a>
+            </li>
+            <li>
+              <a href="#" class="link-light text-decoration-none">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="container d-flex justify-content-between align-items-center">
+          <!-- Brand name -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/compositions/T818A1PA1659PT17X26Y20D187054633W11924H12005/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/judo-kanji-emblem-in-kodokan-sign-baby-longsleeve-shirt.jpg"
+              alt=""
+              width="50px" />
+          </a>
+          <div class="d-flex">
+            <!-- Links -->
+            <ul
+              class="navbar-nav link-hover me-auto ms-5 mb-2 d-flex flex-row align-items-center gap-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link active color2 fw-bold"
+                  aria-current="page"
+                  href="about.html"
+                  target="_blank"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-bold"
+                  aria-current="page"
+                  href="#main-program"
+                  >Program</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >Join</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >Sponser</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item"></li>
+            </ul>
+            <button
+              class="campaign-container color2 fw-bold border border-4 border-danger bg-white p-2"
+              aria-current="page"
+              href="#">
+              IJ Campaign
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Mobile-->
+      <nav class="px-4 py-3 mobile">
         <a href="#"
           ><img
             src="https://img.icons8.com/ios-filled/40/454545/menu--v1.png"
@@ -103,31 +188,33 @@
       </nav>
       <!-- Headline -->
       <section class="headline-container">
-        <!-- Headline heading -->
-        <div class="headline-heading-container px-3">
-          <div class="headline-greeting-container">
-            <p class="fs-4 color2 pt-5">"Hello! Dear Judoka"</p>
+        <div class="headline-content-container">
+          <!-- Headline heading -->
+          <div class="headline-heading-container px-3">
+            <div class="headline-greeting-container">
+              <p class="fs-2 color2 pt-5">"Hello! Dear Judoka"</p>
+            </div>
+            <div class="headline-title-container">
+              <h1 class="fw-bolder">International Judo Global Summit 2024</h1>
+            </div>
           </div>
-          <div class="headline-title-container">
-            <h1 class="fw-bolder">International Judo Global Summit 2024</h1>
+          <!-- Headline description -->
+          <div class="headline-description-container p-3">
+            <p class="border border-white border-3 p-3 fw-normal">
+              A joyful celebration believing in the value of openness and
+              sharing, creating a positive change with people from over 110
+              countries is taking place in October,in Japan.
+            </p>
           </div>
-        </div>
-        <!-- Headline description -->
-        <div class="headline-description-container p-3">
-          <p class="border border-white border-3 p-3 fw-normal">
-            A joyful celebration believing in the value of openness and sharing,
-            creating a positive change with people from over 110 countries is
-            taking place in October,in Japan.
-          </p>
-        </div>
-        <!-- Headline date -->
-        <div class="headline-date-container px-3 fw-bolder fs-1 color1">
-          2024.10.15(THU) ~ 16(FRI)
-        </div>
-        <!-- Headline address -->
-        <div class="headline-address-container px-3 pb-5 color1">
-          @ Japan, 536-0022 Osaka, Joto Ward, Nagata, kodokan International
-          center
+          <!-- Headline date -->
+          <div class="headline-date-container px-3 fw-bolder fs-1 color1">
+            2024.10.15(THU) ~ 16(FRI)
+          </div>
+          <!-- Headline address -->
+          <div class="headline-address-container px-3 pb-5 color1">
+            @ Japan, 536-0022 Osaka, Joto Ward, Nagata, kodokan International
+            center
+          </div>
         </div>
       </section>
     </header>
@@ -240,6 +327,12 @@
         id="join-us">
         Join IJ Global Summit 2024
       </button>
+      <!-- Desktop link -->
+      <div class="desktop main-program-link-container py-5 fs-4 text-uppercase">
+        <a href="#" class="link-light text-decoration-none"
+          >See The whole Program</a
+        >
+      </div>
     </section>
     <!-- Featured Speakers -->
     <section class="featured-speakers-container">
@@ -253,65 +346,66 @@
         <hr />
       </div>
       <!-- Speakers -->
-      <ul class="speakers-container list-unstyled mt-2 mb-5">
-        <!-- Speaker -->
-        <li class="speaker-container d-flex gap-5 m-auto mb-5">
-          <!-- Speaker picture -->
-          <div class="speaker-picture-container">
-            <img
-              src="/assets/images/feature-speakers-stock-image.jpg"
-              width="70px"
-              alt="background image" />
-            <div class="speaker-real-image-container">
-              <img
-                src="https://img.lemde.fr/2022/09/19/0/0/6775/4658/664/0/75/0/c0975b8_5234704-01-06.jpg"
-                class="speaker-picture"
-                alt="" />
-            </div>
-          </div>
-          <!-- Speaker info -->
-          <div class="speaker-info-container">
-            <!-- Speaker name -->
-            <div class="speaker-name-container">
-              <h5 class="fs-3 fw-bold text-capitalize">Lorem, ipsum.</h5>
-            </div>
-            <!-- Speaker title -->
-            <div class="speaker-title-container">
-              <p class="fw-bold fst-italic color2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                animi!
-              </p>
-            </div>
-            <!-- Line -->
-            <div class="speaker-line-container bg-color3 mb-3">
-              <hr />
-            </div>
-            <!-- Speaker description -->
-            <div class="speaker-description-container">
-              <p class="">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Laborum ex ipsam aperiam deserunt numquam ullam quasi, corrupti
-                ipsa odit rerum, accusantium ab voluptatum quibusdam incidunt.
-                Dignissimos cumque unde cupiditate in.
-              </p>
-            </div>
-          </div>
+      <ul class="speakers-container list-unstyled mt-2 mb-5"></ul>
+    </section>
+    <!-- Partner -->
+    <section class="partner-container desktop">
+      <!-- Title -->
+      <div class="partner-title-container">
+        <h3 class="text-light text-center mt-5 mb-2">Partners</h3>
+      </div>
+      <!-- Line -->
+      <div
+        class="main-program-line-container d-flex justify-content-center align-items-center mt-3 mb-5 mx-auto">
+        <hr />
+      </div>
+      <!-- Names -->
+      <ul class="partner-names-container list-unstyled">
+        <li class="partner-name">
+          <img
+            width="120px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Adidas_isologo.svg/1200px-Adidas_isologo.svg.png"
+            alt="" />
+        </li>
+        <li class="partner-name">
+          <img
+            width="150px"
+            src="https://cdn.eju.net/wp-content/uploads/2021/05/essimo-2011.png"
+            alt="" />
+        </li>
+        <li class="partner-name">
+          <img
+            width="150px"
+            src="https://cdn.shopify.com/s/files/1/0604/4352/5325/files/GH_LOGO.png?v=1639829236" />
+        </li>
+        <li class="partner-name">
+          <img
+            width="100px"
+            src="https://www.eju.net/wp-content/uploads/2020/08/FF-Logo-e1629917497961.png" />
         </li>
       </ul>
-      <!-- More button -->
-      <div
-        class="more-btn-container border d-flex justify-content-center align-items-center mb-5 rounded py-2 border-2">
-        <span class="fw-bold">MORE</span>
-        <img
-          src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/35/ec5242/external-chevron-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya.png" />
-      </div>
     </section>
-
+    <!-- Footer -->
+    <footer class="home-page-footer-container">
+      <!-- Brand name -->
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="https://image.spreadshirtmedia.net/image-server/v1/compositions/T818A1PA1659PT17X26Y20D187054633W11924H12005/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/judo-kanji-emblem-in-kodokan-sign-baby-longsleeve-shirt.jpg"
+          alt=""
+          width="50px" />
+      </a>
+      <!-- Copyright -->
+      <div class="copyright-container py-5">
+        <span class="copyright-date"></span> International Judo Federation. All
+        Rights Reserved
+      </div>
+    </footer>
     <!-- Bootstrap js CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
-    <script src="js/mobile-menu.js"></script>
+    <script src="js/featured-speakers.js"></script>
+    <script src="js/footer.js"></script>
   </body>
 </html>
